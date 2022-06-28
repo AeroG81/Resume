@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Resume</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="wraper">
+        <div class="container">
+            <div class="left-content p-30">
+                <div class="logo">
+                    <a href="index.html">
+                        <span>WH's</span>
+                        <span>Resume</span>
+                    </a>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#Home" onclick="show(event, 'Home')">Home</a></li>
+                        <li><a href="#About" onclick="show(event, 'About')">About</a></li>
+                        <li><a href="#WorkExp" onclick="show(event, 'WorkExp')">Work Experience</a></li>
+                        <li><a href="#Project" onclick="show(event, 'Project')">Project</a></li>
+                        <li><a href="#Education" onclick="show(event, 'Education')">Education</a></li>
+                    </ul>
+                </div>
+                <div class="left-footer">
+                    <div class="copy-rights">Copyright &copy;2022 All rights reserved</div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="section p-30" id="Home">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Home</div>
+                        <div class="pg-title">My Profile</div>
+                    </div>
+                    <div class="d-flex-align-center">
+                        <div class="user-img flex-1"><img src="img1.jpg"></div>
+                        <div class="user-profile flex-1">
+                            <div class="pro-details">
+                                <div class="sm-text">HELLO EVERYBODY, I AM</div>
+                                <div class="name">Pan Wei Hung</div>
+                                <div class="role">Software Engineer</div>
+                            </div>
+                            <div class="text">This is my resume</div>
+                            <div class="pr-list">
+                                <ul>
+                                    <li><i class="fa fa-calendar" aria-hidden="true"></i> 1st Aug, 2001</li>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i> +60162607232 </li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i> wpan.work0017@gmail.com</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Seremban, Negeri Sembilan
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="social-icons-head">
+                                <ul>
+                                    <li><a href="https://www.linkedin.com/in/wei-hung-pan-8a563b243/"><i
+                                                class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://github.com/AeroG81"><i class="fa fa-github"
+                                                aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="section p-30" id="About">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">About</div>
+                        <div class="pg-title">About me</div>
+                    </div>
+                    <div class="d-flex-align-center">
+                        <div class="user-profile flex-1">
+                            <div class="pro-details">
+                                <div class="sm-text">HELLO EVERYBODY, MY NAME IS</div>
+                                <div class="name">Pan Wei Hung</div>
+                            </div>
+                            <div class="text">
+                                I am currently a student studying at Monash University Malaysia. I am a fresh software engineer with no working experience currently, I am eager to learn more about how to apply my skills in industry.
+                                During my free time I tried to develop skills in game development such as using blender or unreal engine. 
+                            </div>
+                            <div class="language">
+                                Languages
+                                <br>
+                                <ul class="language-list p-left25">
+                                    <li>Chinese</li>
+                                    <li>English</li>
+                                    <li>Cantonese</li>
+                                    <li>Malay</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section p-30" id="WorkExp">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Work Profile</div>
+                        <div class="pg-title">Work Experience</div>
+                    </div>
+                    <div class="d-flex-align-center">
+                        <div class="user-profile flex-1">
+                            <div class="pro-details">
+                                <div class="sm-text">Currently have no working experience</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section p-30" id="Project">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Project</div>
+                        <div class="pg-title">Technical Project</div>
+                    </div>
+                    <div class="d-flex-align-center project-item">
+                        <div class="user-profile flex-1">
+                            <div class="pro-details">
+                                <div class="name">Discord Bot</div>
+                                <div class="role">Small project</div>
+                            </div>
+                            <div class="text">
+                                I have some experience in building Discord bot using Node.js which provides features
+                                such as searching for song using Shazam.API, provide users with user information or
+                                server information.
+                                Repository for this project can be found at my <a
+                                    href="https://github.com/AeroG81/DiscordBot">Github</a>.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex-align-center project-item">
+                        <div class="user-profile flex-1">
+                            <div class="pro-details">
+                                <div class="name">Internship Management System</div>
+                                <div class="role">Group project</div>
+                            </div>
+                            <div class="text">
+                                This is an ongoing full year group project involving 14 students to create a platform
+                                for
+                                students to find internship opportunities provided by patnered companies. I have
+                                involved in the backend development for the system.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section p-30" id="Education">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Education</div>
+                        <div class="pg-title">Education</div>
+                    </div>
+                    <div class="d-flex-align-center education-item">
+                        <div class="user-profile flex-1">
+                            <div class="pro-details">
+                                <div class="sm-text">2020-2023(Expected)</div>
+                                <div class="name">Monash University</div>
+                                <div class="role">Bachelor of Software Engineering (Honours)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
